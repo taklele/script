@@ -62,7 +62,7 @@ BACKUP[0]="/root/wallabag/"
 LOCALAGEDAILIES="7"
 
 # Delete remote file from Googole Drive or FTP server flag (true: delete, false: not delete)
-DELETE_REMOTE_FILE_FLG=false
+DELETE_REMOTE_FILE_FLG=true
 
 # Rclone remote name
 RCLONE_NAME="remotename"
@@ -74,7 +74,7 @@ RCLONE_FOLDER="/Backup/"
 FTP_FLG=false
 
 # Upload local file to Google Drive flag (true: upload, false: not upload)
-RCLONE_FLG=false
+RCLONE_FLG=true
 
 # FTP server
 # OPTIONAL: If you want to upload to FTP server, enter the Hostname or IP address below
